@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$db   = 'sports_center_db';   // 這個名字請先在 MySQL 建立
-$user = 'root';
-$pass = '';
+$host = getenv('MYSQLHOST');
+$db   = getenv('MYSQLDATABASE');
+$user = getenv('MYSQLUSER');
+$pass = getenv('MYSQLPASSWORD');
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
