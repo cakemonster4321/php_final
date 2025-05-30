@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 require_once 'db_config.php';
@@ -107,8 +106,9 @@ font-size: 0.95rem;
 
         }
         .timeslot-btn:hover {
-            background-color:
+    background-color: #2e7d32; /* 或你喜歡的綠色 */
 }
+
         
         .category-box {border:1px solid #ccc; padding:8px; margin-bottom:12px;}
         .category-box h4 {margin:4px 0;}
